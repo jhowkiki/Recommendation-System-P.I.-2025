@@ -1,0 +1,23 @@
+[project]
+name = "recommendation-training"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Jhonny vitor Silveira",email = "jhonnyvsn@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pandas (>=2.2.3,<3.0.0)",
+    "scikit-learn (>=1.6.1,<2.0.0)",
+    "streamlit (>=1.45.0,<2.0.0)",
+    "matplotlib (>=3.10.3,<4.0.0)"
+]
+
+[tool.poetry]
+packages = [{include = "recommendation_training", from = "src"}]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
