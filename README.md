@@ -1,3 +1,4 @@
-Recommendation Car System 
+Recommendation Car System for my University project.
 
-this is my University P.I.
+this project use Python and data analytics.
+
